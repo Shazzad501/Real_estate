@@ -25,6 +25,12 @@
     *{
       font-family: "Manrope", sans-serif;
     }
+    .contact{
+      background: url(assets/bg.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
    </style>
   <!-- Internal css link end -->
 
@@ -75,7 +81,7 @@
       <div class="mt-3 flex flex-col items-center justify-center text-center">
         <h2 class="text-[2rem] lg:text-6xl font-extrabold">A barn house of this<br class="xs:hidden sm:block md:hidden"> design has a <br class="hidden lg:block"> striking <br class="xs:hidden sm:block md:hidden"> appearance</h2>
         <p class="text-sm lg:text-base font-bold mt-5 text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br class="hidden lg:block"> accents, and large windows that flood the space with natural light.</p>
-        <button class="btn bg-[#c5ee95] mt-5 rounded-full"><span class="text-base font-extrabold">View Details</span> <span class="py-1.5 px-2 bg-[#ABEF5F] rounded-full"><p><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></p></span></button>
+        <button class="btn w-full lg:w-auto bg-[#c5ee95] mt-5 rounded-full"><span class="text-base font-extrabold">View Details</span> <span class="py-1.5 px-2 bg-[#ABEF5F] rounded-full"><p><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></p></span></button>
       </div>
      </div>
     <!-- banner section close -->
@@ -321,7 +327,35 @@
     </section> 
     <!-- Articles and News section end -->
 
-    <!--  -->
+    <!-- Discuss Next Project section start -->
+     <section class="contact py-14">
+      <div class="mx-4 md:container md:mx-auto">
+        <!-- contact header content -->
+        <div class="flex flex-col items-center justify-center text-center">
+          <button class="btn border-none bg-[#ABEF5F33] rounded-full text-base font-extrabold mb-5"><i class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
+          <p class="text-4xl font-extrabold text-[#212121]">Let’s Discuss Next Project</p>
+          <p class="text-base font-bold text-[#494949] mt-2">Discuss the design aspects, including architectural style, layout, materials, and<br class="hidden md:block">  building technologies.</p>
+        </div>
+        <!-- contact form content -->
+         <div class="mt-10 lg:px-16">
+          <div class="flex flex-col lg:flex-row gap-5">
+            <input class="w-[100%] lg:w-[50%] py-3 px-4 rounded-full" type="text" name="text" id="text" placeholder="First Name*">
+            <input class="w-[100%] lg:w-[50%] py-3 px-4 rounded-full" type="text" name="text" id="text" placeholder="Last Name*">
+          </div>
+
+          <div class="flex flex-col lg:flex-row gap-5 mt-5">
+            <input class="w-[100%] lg:w-[50%] py-3 px-4 rounded-full" type="number" name="number" id="number" placeholder="Phone number*">
+            <input class="w-[100%] lg:w-[50%] py-3 px-4 rounded-full" type="email" name="email" id="email" placeholder="Your Email*">
+          </div>
+
+          <div class="mt-5 ">
+            <textarea class="w-[100%] h-[200px] rounded-xl px-5 py-5" name="text" id="text" placeholder="Write your message here"></textarea>
+          </div>
+          <button class="btn w-full bg-[#ABEF5F] mt-5 rounded-full"><span class="text-base font-extrabold">Send Mail</span> <span class="py-1.5 px-2 bg-black rounded-full"><p class="text-white"><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></p></span></button>
+         </div>
+      </div>
+     </section>
+    <!-- Discuss Next Project section end -->
    </main>
   <!-- main body end -->
 
