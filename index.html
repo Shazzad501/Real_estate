@@ -31,52 +31,55 @@
 </head>
 <body>
   <!-- Header section start -->
-   <header class="mx-4 lg:container lg:mx-auto">
+   <header class="md:container md:mx-auto mb-[70px]">
     <!-- navbar start -->
-     <nav class="">
-      <div class="navbar justify-between bg-base-100">
+    <nav class="px-3 lg:px-0">
+      <div class="navbar bg-base-100">
         <div class="navbar-start">
           <p class="py-1 px-2.5 mr-1 rounded-full bg-[#ABEF5F]"><span class="text-[15px] text-[#212121]"><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></span></p>
           <p class="text-3xl font-extrabold">Rinterio</p>
         </div>
-        <div class="navbar-center hidden lg:flex lg:justify-between">
+        <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a class="text-black text-base font-bold">Home</a></li>
-            <li><a class="text-[#737373] text-base font-bold" href="">Services</a></li>
-            <li><a class="text-[#737373] text-base font-bold">Portfolio</a></li>
-            <li><a class="text-[#737373] text-base font-bold">Blogs</a></li>
-            <li><a class="text-[#737373] text-base font-bold">Contact Us</a></li>
+            <li><a class="text-black text-base font-bold cursor-pointer">Home</a></li>
+            <li><a class="text-[#737373] text-base font-bold cursor-pointer" href="">Services</a></li>
+            <li><a class="text-[#737373] text-base font-bold cursor-pointer">Portfolio</a></li>
+            <li><a class="text-[#737373] text-base font-bold cursor-pointer">Blogs</a></li>
+            <li><a class="text-[#737373] text-base font-bold cursor-pointer">Contact Us</a></li>
           </ul>
         </div>
-        <div class="navbar-end hidden lg:block lg:mb-[-22px]  lg:items-center">
-          <div class="flex items-center gap-3 justify-end">
-            <p class="px-2 mr-1 py-1 bg-[#f3f0f0] rounded-full"><span class="text-[15px] text-gray-600">
-              <i class="fa-solid fa-magnifying-glass"></i></span>
-            </p>
-            <p class="px-2 mr-1 py-1 bg-[#f3f0f0] rounded-full"><span class="text-[15px] text-gray-600">
-              <i class="fa-solid fa-cart-shopping"></i></span>
-            </p>
-              <span><a class="btn bg-[#ABEF5F] text-black text-base rounded-full hover:bg-[#ABEF5F]"><span class="text-lg font-extrabold">Book Consult</span> <p class="py-0.5 px-2 mr-1 rounded-full bg-black"><span class="text-[15px] text-white"><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></span></p></a></span>
-          </div>
-        </div>  
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost rounded-full bg-[#f7f5f5] lg:hidden">
-            <span class="text-xl text-[#737373]"><i class="fa-solid fa-bars"></i></span>
-          </div>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <ul>
-              <li><a class="text-black text-base font-bold">Home</a></li>
-              <li><a class="text-[#737373] text-base font-bold" href="">Services</a></li>
-              <li><a class="text-[#737373] text-base font-bold">Portfolio</a></li>
-              <li><a class="text-[#737373] text-base font-bold">Blogs</a></li>
-              <li><a class="text-[#737373] text-base font-bold">Contact Us</a></li>
-          </ul>
+        <div class="navbar-end">
+          <button class="px-2 hidden lg:block mr-1.5 py-1 bg-[#f3f0f0] rounded-full cursor-pointer"><span class="text-[15px] text-gray-600">
+            <i class="fa-solid fa-magnifying-glass"></i></span>
+          </button>
+          <button class="px-2 hidden lg:block mr-1.5 py-1 bg-[#f3f0f0] rounded-full cursor-pointer"><span class="text-[15px] text-gray-600">
+            <i class="fa-solid fa-cart-shopping"></i></span>
+          </button>
+          <button class="btn hidden lg:flex rounded-full bg-[#ABEF5F]"><span class="text-lg font-extrabold">Book Consult</span><p class="py-1.5 px-2 mr-1 rounded-full bg-black"><span class="text-[15px] text-white"><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></span></p></button>
+          
+          <button class="btn lg:hidden rounded-full bg-[#f7f5f5]">
+            <span><span class="text-xl text-[#737373]"><i class="fa-solid fa-bars"></i></span></span>
+          </button>
         </div>
       </div>
-     </nav>
+    </nav>
     <!-- navbar end -->
+
+
+    <!-- banner section start -->
+    <div class="px-4 lg:px-0">
+      <!-- banner img content-->
+      <div class="flex flex-col items-center justify-center">
+        <img src="assets/banner.png" alt="">
+      </div>
+      <!-- banner text content -->
+      <div class="mt-3 flex flex-col items-center justify-center text-center">
+        <h2 class="text-[2rem] lg:text-6xl font-extrabold">A barn house of this<br class="xs:hidden sm:block md:hidden"> design has a <br class="hidden lg:block"> striking <br class="xs:hidden sm:block md:hidden"> appearance</h2>
+        <p class="text-sm lg:text-base font-bold mt-5 text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br class="hidden lg:block"> accents, and large windows that flood the space with natural light.</p>
+        <button class="btn bg-[#c5ee95] mt-5 rounded-full"><span class="text-base font-extrabold">View Details</span> <span class="py-1.5 px-2 bg-[#ABEF5F] rounded-full"><p><i class="fa-solid fa-arrow-right rotate-[-45deg]"></i></p></span></button>
+      </div>
+     </div>
+    <!-- banner section close -->
    </header>
   <!-- Header section end -->
 
